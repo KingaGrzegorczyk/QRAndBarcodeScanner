@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QRScan.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Spacing="10">
+            <Button Text="Skanuj" Clicked="ScanButtonClicked"/>
+            <Entry x:Name="myCode" IsVisible="False" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
